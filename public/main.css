@@ -1,0 +1,14 @@
+/* Hide scrollbar but allow touch scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Enable smooth scrolling on touch devices */
+.touch-scroll {
+  -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS */
+}
