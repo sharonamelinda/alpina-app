@@ -691,6 +691,11 @@ html {
   margin-bottom: 1rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -721,6 +726,10 @@ html {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
 }
 
 .line-clamp-1 {
@@ -1156,6 +1165,10 @@ html {
   padding-top: 20px;
 }
 
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1238,6 +1251,15 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#828fa1\] {
+  --tw-text-opacity: 1;
+  color: rgb(130 143 161 / var(--tw-text-opacity));
 }
 
 .underline {
