@@ -624,6 +624,14 @@ html {
   left: 2.5rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
 .left-5 {
   left: 1.25rem;
 }
@@ -636,24 +644,16 @@ html {
   top: 2.5rem;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
 .top-3 {
   top: 0.75rem;
-}
-
-.left-3 {
-  left: 0.75rem;
 }
 
 .top-4 {
   top: 1rem;
 }
 
-.left-4 {
-  left: 1rem;
+.top-5 {
+  top: 1.25rem;
 }
 
 .m-2 {
@@ -683,28 +683,28 @@ html {
   margin-bottom: 1rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -731,32 +731,24 @@ html {
   display: none;
 }
 
-.h-\[93px\] {
-  height: 93px;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[140px\] {
-  height: 140px;
-}
-
 .h-\[292px\] {
   height: 292px;
+}
+
+.h-\[93px\] {
+  height: 93px;
 }
 
 .h-auto {
   height: auto;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-full {
+  height: 100%;
 }
 
-.w-full {
-  width: 100%;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-auto {
@@ -768,12 +760,12 @@ html {
   width: fit-content;
 }
 
-.max-w-\[393px\] {
-  max-width: 393px;
+.w-full {
+  width: 100%;
 }
 
-.max-w-\[\] {
-  max-width: ;
+.max-w-\[393px\] {
+  max-width: 393px;
 }
 
 .flex-shrink {
@@ -988,16 +980,16 @@ html {
   padding-bottom: 2rem;
 }
 
+.pb-\[93px\] {
+  padding-bottom: 93px;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pb-\[93px\] {
-  padding-bottom: 93px;
 }
 
 .text-left {
@@ -1065,6 +1057,11 @@ html {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-lightblue {
+  --tw-text-opacity: 1;
+  color: rgb(54 46 237 / var(--tw-text-opacity));
+}
+
 .text-orange {
   --tw-text-opacity: 1;
   color: rgb(255 154 61 / var(--tw-text-opacity));
@@ -1073,11 +1070,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-lightblue {
-  --tw-text-opacity: 1;
-  color: rgb(54 46 237 / var(--tw-text-opacity));
 }
 
 .underline {
