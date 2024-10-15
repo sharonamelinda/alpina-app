@@ -853,6 +853,10 @@ html {
   max-width: fit-content;
 }
 
+.max-w-\[640px\] {
+  max-width: 640px;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -915,6 +919,14 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-1 {
