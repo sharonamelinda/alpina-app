@@ -15,12 +15,11 @@
     <title>Alpina App</title>
   </head>
   <body>
-    <div class="relative max-w-[393px] mx-auto bg-white w-full">
-      <div class="flex-grow overflow-y-auto pb-[100px]">
-        <div class="relative">
+    <div id="main" class="relative max-w-[393px] mx-auto bg-white w-full min-h-screen flex flex-col">
+      <div class="flex-grow overflow-y-auto pb-[130px]">
 
-          <!-- Header -->
-          <div class="w-full max-w-[393px] mx-auto m-8">
+         <!-- Header -->
+         <div id="header" class="w-full max-w-[393px] mx-auto m-8">
             <div class="flex items-center justify-between px-4">
               <div class="flex gap-3 items-center">
                 <img src="images/icon/logo.svg" alt="alpina-logo"/>
@@ -33,213 +32,191 @@
                 <img src="images/icon/location.svg" alt="">
               </div>
             </div>
-          </div>
-
-          <!-- Our Category -->
-          <div class="w-full max-w-[393px] mx-auto bg-light mt-4 pl-4 py-[20px] overflow-hidden whitespace-nowrap">
-            <h1 class="text-base font-black">Our Category</h1>
-
-            <div class="swiper">
-              <div class="swiper-wrapper flex gap-[14px] mt-3">
-                <div class="swiper-slide bg-white px-3 py-2 flex rounded-full gap-2 items-center hover:border hover:border-lightblue flex-shrink-0">
-                  <img src="images/icon/building-4.svg" alt="cities" />
-                  <p class="font-semibold text-base">Cities</p>
-                </div>
-                <div class="swiper-slide bg-white px-3 py-2 flex rounded-full gap-2 items-center hover:border hover:border-lightblue flex-shrink-0">
-                  <img src="images/icon/car.svg" alt="tracks"/>
-                  <p class="font-semibold text-base">Tracks</p>
-                </div>
-                <div class="swiper-slide bg-white px-3 py-2 flex rounded-full gap-2 items-center hover:border hover:border-lightblue flex-shrink-0">
-                  <img src="images/icon/cloud.svg" alt="mountain" />
-                  <p class="font-semibold text-base">Mountain</p>
-                </div>
-                <div class="swiper-slide bg-white px-3 py-2 flex rounded-full gap-2 items-center hover:border hover:border-lightblue flex-shrink-0">
-                  <img src="images/icon/sun-fog.svg" alt="beaches" />
-                  <p class="font-semibold text-base">Beaches</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-         <!-- Start Your Adventure -->
-         <div class="w-full max-w-[393px] mx-auto pl-4 overflow-hidden mt-[30px]">
-            <h1 class="text-base font-black">Start Your Adventure</h1>
-
-            <div class="swiper">
-               <div class="swiper-wrapper flex gap-4 mt-3">
-                  <!-- Card 1 -->
-                  <div class="w-[240px] h-[290px] swiper-slide rounded-[20px] border flex flex-col shrink-0 hover:border-lightblue overflow-hidden p-[20px]">
-                     <a class="w-[240px] h-[145px] flex shrink-0 overflow-hidden relative" href="#">
-                        <img src="images/cars/la-ferrari-pista-white.svg" alt="thumbnail" class="h-auto w-auto object-cover rounded-[50px]">
-                        <p class="absolute text-[10px] top-2 left-2 px-2 py-1 bg-lightblue rounded-full text-white font-semibold">POPULAR</p>
-                     </a>
-                     <div class="flex flex-col justify-between gap-[14px]">
-                        <div class="flex flex-col gap-1">
-                           <a href="#" class="font-bold line-clamp-2">La Ferrari Pista White</a>
-                           <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                        </div>
-                        <hr>
-                        <div class="flex justify-between items-center">
-                           <div class="flex gap-1">
-                              <img src="images/icon/flash.svg" alt=""/>
-                              <p class="text-sm font-semibold">450kmh</p>
-                           </div>
-                           <div class="flex gap-1">
-                              <p class="text-sm font-semibold">4/5</p>
-                              <img src="images/icon/star.svg" alt=""/>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Card 2 -->
-                  <div class="w-[240px] h-[290px] swiper-slide rounded-[20px] border flex flex-col shrink-0 hover:border-lightblue overflow-hidden p-[20px]">
-                     <a class="w-[240px] h-[145px] flex shrink-0 overflow-hidden relative" href="#">
-                        <img src="images/cars/porsche-911.png" alt="thumbnail" class="h-full w-auto object-cover rounded-[50px]">
-                        <p class="absolute text-[10px] top-2 left-2 px-2 py-1 bg-lightblue rounded-full text-white font-semibold">POPULAR</p>
-                     </a>
-                     <div class="flex flex-col justify-between gap-[14px]">
-                        <div class="flex flex-col gap-1">
-                           <a href="#" class="font-bold line-clamp-2">La Ferrari Pista White</a>
-                           <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                        </div>
-                        <hr>
-                        <div class="flex justify-between items-center">
-                           <div class="flex gap-1">
-                              <img src="images/icon/flash.svg" alt=""/>
-                              <p class="text-sm font-semibold">450kmh</p>
-                           </div>
-                           <div class="flex gap-1">
-                              <p class="text-sm font-semibold">4/5</p>
-                              <img src="images/icon/star.svg" alt=""/>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Card 3 -->
-                  <div class="w-[240px] h-[290px] swiper-slide rounded-[20px] border flex flex-col shrink-0 hover:border-lightblue overflow-hidden p-[20px]">
-                     <a class="w-[240px] h-[145px] flex shrink-0 overflow-hidden relative" href="#">
-                        <img src="images/cars/porsche-911.png" alt="thumbnail" class="h-full w-auto object-cover rounded-[50px]">
-                        <p class="absolute text-[10px] top-2 left-2 px-2 py-1 bg-lightblue rounded-full text-white font-semibold">POPULAR</p>
-                     </a>
-                     <div class="flex flex-col justify-between gap-[14px]">
-                        <div class="flex flex-col gap-1">
-                           <a href="#" class="font-bold line-clamp-2">La Ferrari Pista White</a>
-                           <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                        </div>
-                        <hr>
-                        <div class="flex justify-between items-center">
-                           <div class="flex gap-1">
-                              <img src="images/icon/flash.svg" alt=""/>
-                              <p class="text-sm font-semibold">450kmh</p>
-                           </div>
-                           <div class="flex gap-1">
-                              <p class="text-sm font-semibold">4/5</p>
-                              <img src="images/icon/star.svg" alt=""/>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Card 4 -->
-                  <div class="w-[240px] h-[290px] swiper-slide rounded-[20px] border flex flex-col shrink-0 hover:border-lightblue overflow-hidden p-[20px]">
-                     <a class="w-[240px] h-[145px] flex shrink-0 overflow-hidden relative" href="#">
-                        <img src="images/cars/la-ferrari-pista-white.svg" alt="thumbnail" class="h-auto w-auto object-cover rounded-[50px]">
-                        <p class="absolute text-[10px] top-2 left-2 px-2 py-1 bg-lightblue rounded-full text-white font-semibold">POPULAR</p>
-                     </a>
-                     <div class="flex flex-col justify-between gap-[14px]">
-                        <div class="flex flex-col gap-1">
-                           <a href="#" class="font-bold line-clamp-2">La Ferrari Pista White</a>
-                           <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                        </div>
-                        <hr>
-                        <div class="flex justify-between items-center">
-                           <div class="flex gap-1">
-                              <img src="images/icon/flash.svg" alt=""/>
-                              <p class="text-sm font-semibold">450kmh</p>
-                           </div>
-                           <div class="flex gap-1">
-                              <p class="text-sm font-semibold">4/5</p>
-                              <img src="images/icon/star.svg" alt=""/>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
          </div>
 
-          <!-- Newest Arrival -->
-          <div class="w-full max-w-[393px] mx-auto px-4 mt-[30px]">
-            <h1 class="text-base font-black">Newest Arrival</h1>
-            <div class="flex flex-col gap-4 mt-3 mb-4">
-               <!-- Card 1 -->
-               <div class="flex gap-[14px] items-center w-[361px] h-[120px] shrink-0 border rounded-[20px] px-[14px] py-[10px] justify-center">
-                  <a href="#" class="w-[140px] h-[120px] overflow-hidden">
-                     <img src="images/cars/mercedes-power-one-white.png" alt="mercedes-power-one-white" class="w-full h-full object-contain">
+         <!-- Our Category -->
+         <section id="our-category" class="flex flex-col mx-auto bg-light mt-4 py-[20px] gap-3 overflow-hidden">
+            <h1 class="font-black px-4">Our Category</h1>
+
+            <div class="swiper-category">
+              <div class="swiper-wrapper flex items-center">
+                  <a href="#" class="swiper-slide flex w-fit items-center gap-2 flex-shrink-0 rounded-full bg-white px-[14px] py-[10px] transition-all duration-300 hover:border hover:border-lightblue">
+                     <img src="images/icon/building-4.svg" alt="icon"/>
+                     <p class="font-poppins font-semibold">Cities</p>
                   </a>
-                  <div class="flex flex-col gap-[14px]">
-                     <div class="flex flex-col gap-1">
-                        <a href="#" class="font-bold inline-block text-base">Mercedes Power One</a>
-                        <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                     </div>
-                     <div class="flex justify-between">
-                        <div class="flex gap-1">
-                           <img src="images/icon/flash.svg" alt=""/>
-                           <p class="text-sm font-semibold">450kmh</p>
-                        </div>
-                        <div class="flex gap-1">
-                           <p class="text-sm font-semibold">4/5</p>
-                           <img src="images/icon/star.svg" alt=""/>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- Card 2 -->
-               <div class="flex gap-[14px] items-center w-[361px] h-[120px] shrink-0 border rounded-[20px] px-[14px] py-[10px] justify-center">
-                  <a href="#" class="w-[140px] h-[120px] overflow-hidden">
-                     <img src="images/cars/mercedes-power-one-green.png" alt="mercedes-power-one-white" class="w-full h-full object-contain">
+
+                  <a href="#" class="swiper-slide flex w-fit items-center gap-2 flex-shrink-0 rounded-full bg-white px-[14px] py-[10px] transition-all duration-300 hover:border hover:border-lightblue">
+                     <img src="images/icon/car.svg" alt="icon"/>
+                     <p class="font-poppins font-semibold">Tracks</p>
                   </a>
-                  <div class="flex flex-col gap-[14px]">
-                     <div class="flex flex-col gap-1">
-                        <a href="#" class="font-bold inline-block text-base">Mercedes Power One</a>
-                        <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                     </div>
-                     <div class="flex justify-between">
-                        <div class="flex gap-1">
-                           <img src="images/icon/flash.svg" alt=""/>
-                           <p class="text-sm font-semibold">450kmh</p>
-                        </div>
-                        <div class="flex gap-1">
-                           <p class="text-sm font-semibold">4/5</p>
-                           <img src="images/icon/star.svg" alt=""/>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- Card 3 -->
-               <div class="flex gap-[14px] items-center w-[361px] h-[120px] shrink-0 border rounded-[20px] px-[14px] py-[10px] justify-center">
-                  <a href="#" class="w-[140px] h-[120px] overflow-hidden">
-                     <img src="images/cars/mercedes-power-one-blue.png" alt="mercedes-power-one-white" class="w-full h-full object-contain">
+
+                  <a href="#" class="swiper-slide flex w-fit items-center gap-2 flex-shrink-0 rounded-full bg-white px-[14px] py-[10px] transition-all duration-300 hover:border hover:border-lightblue">
+                     <img src="images/icon/cloud.svg" alt="icon"/>
+                     <p class="font-poppins font-semibold">Mountain</p>
                   </a>
-                  <div class="flex flex-col gap-[14px]">
-                     <div class="flex flex-col gap-1">
-                        <a href="#" class="font-bold inline-block text-base">Mercedes Power One</a>
-                        <p class="text-lightblue font-semibold text-sm">Rp 51.250.000</p>
-                     </div>
-                     <div class="flex justify-between">
-                        <div class="flex gap-1">
-                           <img src="images/icon/flash.svg" alt=""/>
-                           <p class="text-sm font-semibold">450kmh</p>
+
+                  <a href="#" class="swiper-slide flex w-fit items-center gap-2 flex-shrink-0 rounded-full bg-white px-[14px] py-[10px] transition-all duration-300 hover:border hover:border-lightblue">
+                     <img src="images/icon/sun-fog.svg" alt="icon"/>
+                     <p class="font-poppins font-semibold">Beaches</p>
+                  </a>
+
+              </div>
+            </div>
+         </section>
+
+         <!-- Start Your Adventure -->
+         <section id="adventure" class="flex flex-col mx-auto overflow-hidden mt-[30px] gap-3">
+            <h1 class="font-black px-4">Start Your Adventure</h1>
+
+            <div class="swiper-car">
+               <div class="swiper-wrapper flex items-center">
+
+                  <!-- Card 1 -->
+                  <div class="swiper-slide !w-fit p-[1px]">
+                     <a href="#">
+                        <div class="flex flex-col w-[240px] shrink-0 overflow-hidden rounded-[20px] border border-[#EFF2F7] p-5 gap-[14px] hover:border-lightblue transition-all duration-300">
+                           <div class="relative">
+                              <p class="absolute text-[10px] top-0 left-0 px-2 py-1 bg-lightblue rounded-full text-white leading-[15px] font-semibold">POPULAR</p>
+                              <div class="flex h-[140px] shrink-0 rounded-[50px] overflow-hidden">
+                                 <img src="images/cars/la-ferrari-pista-white.png" alt="thumbnail" class="w-full h-full object-contain">
+                              </div>
+                           </div>
+                           <div class="flex flex-col gap-1">
+                              <h3 class="font-bold">La Ferrari Pista White</h3>
+                              <p class="text-lightblue font-semibold text-sm leading-[21px]">Rp 51.250.000</p>
+                           </div>
+                           <hr>
+                           <div class="flex justify-between items-center">
+                              <div class="flex gap-1">
+                                 <img src="images/icon/flash.svg" class="w-5 h-5" alt="icon"/>
+                                 <p class="text-sm font-semibold">450kmh</p>
+                              </div>
+                              <div class="flex gap-1">
+                                 <p class="text-sm font-semibold">4/5</p>
+                                 <img src="images/icon/star.svg" class="w-5 h-5" alt="icon"/>
+                              </div>
+                           </div>
                         </div>
-                        <div class="flex gap-1">
-                           <p class="text-sm font-semibold">4/5</p>
-                           <img src="images/icon/star.svg" alt=""/>
-                        </div>
-                     </div>
+                     </a>
                   </div>
+                  
+                  <!-- Card 2 -->
+                  <div class="swiper-slide !w-fit p-[1px]">
+                     <a href="#">
+                        <div class="flex flex-col w-[240px] shrink-0 overflow-hidden rounded-[20px] border border-[#EFF2F7] p-5 gap-[14px] hover:border-lightblue transition-all duration-300">
+                           <div class="relative">
+                              <p class="absolute text-[10px] top-0 left-0 px-2 py-1 bg-lightblue rounded-full text-white leading-[15px] font-semibold">POPULAR</p>
+                              <div class="flex h-[140px] shrink-0 rounded-[50px] overflow-hidden">
+                                 <img src="images/cars/porsche-911.png" alt="thumbnail" class="w-full h-full object-contain">
+                              </div>
+                           </div>
+                           <div class="flex flex-col gap-1">
+                              <h3 class="font-bold">Porsche 911 ST</h3>
+                              <p class="text-lightblue font-semibold text-sm leading-[21px]">Rp 51.250.000</p>
+                           </div>
+                           <hr>
+                           <div class="flex justify-between items-center">
+                              <div class="flex gap-1">
+                                 <img src="images/icon/flash.svg" class="w-5 h-5" alt="icon"/>
+                                 <p class="text-sm font-semibold">450kmh</p>
+                              </div>
+                              <div class="flex gap-1">
+                                 <p class="text-sm font-semibold">4/5</p>
+                                 <img src="images/icon/star.svg" class="w-5 h-5" alt="icon"/>
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+
                </div>
             </div>
-          </div>
-        </div>
+         </section>
+
+         <!-- Newest Arrival -->
+         <section id="newest-arrival" class="flex flex-col gap-3 px-4 overflow-hidden mt-[30px]">
+            <h1 class="font-black">Newest Arrival</h1>
+
+            <div class="flex flex-col gap-3">
+
+               <!-- Card 1 -->
+               <a href="#">
+                  <div class="flex items-center w-full rounded-[20px] border py-[10px] px-[14px] gap-[14px] bg-white hover:border-lightblue transition-all duration-300">
+                     <div class="flex w-[130px] h-[100px] overflow-hidden">
+                        <img src="images/cars/mercedes-power-one-white.png" alt="mercedes-power-one-white" class="w-full h-full object-contain">
+                     </div>
+                     <div class="flex flex-col gap-[14px] w-full">
+                        <div class="flex flex-col gap-1">
+                           <h3 href="#" class="font-bold">Mercedes Power One</h3>
+                           <p class="text-lightblue font-semibold leading-[21px]">Rp 51.250.000</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                           <div class="flex items-center gap-[2px]">
+                               <img src="images/icon/flash.svg" class="w-5 h-5" alt="icon">
+                               <p class="font-semibold text-sm leading-[21px]">450kmh</p>
+                           </div>
+                           <div class="flex items-center gap-[2px] justify-end">
+                               <p class="font-semibold text-sm leading-[21px]">4/5</p>
+                               <img src="images/icon/star.svg" class="w-5 h-5" alt="icon">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               
+               <!-- Card 2 -->
+               <a href="#">
+                  <div class="flex items-center w-full rounded-[20px] border py-[10px] px-[14px] gap-[14px] bg-white hover:border-lightblue transition-all duration-300">
+                     <div class="flex w-[130px] h-[100px] overflow-hidden">
+                        <img src="images/cars/mercedes-power-one-green.png" alt="mercedes-power-one-green" class="w-full h-full object-contain">
+                     </div>
+                     <div class="flex flex-col gap-[14px] w-full">
+                        <div class="flex flex-col gap-1">
+                           <h3 href="#" class="font-bold">Mercedes Power One</h3>
+                           <p class="text-lightblue font-semibold leading-[21px]">Rp 51.250.000</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                           <div class="flex items-center gap-[2px]">
+                               <img src="images/icon/flash.svg" class="w-5 h-5" alt="icon">
+                               <p class="font-semibold text-sm leading-[21px]">450kmh</p>
+                           </div>
+                           <div class="flex items-center gap-[2px] justify-end">
+                               <p class="font-semibold text-sm leading-[21px]">4/5</p>
+                               <img src="images/icon/star.svg" class="w-5 h-5" alt="icon">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               
+               <!-- Card 3 -->
+               <a href="#">
+                  <div class="flex items-center w-full rounded-[20px] border py-[10px] px-[14px] gap-[14px] bg-white hover:border-lightblue transition-all duration-300">
+                     <div class="flex w-[130px] h-[100px] overflow-hidden">
+                        <img src="images/cars/mercedes-power-one-blue.png" alt="mercedes-power-one-blue" class="w-full h-full object-contain">
+                     </div>
+                     <div class="flex flex-col gap-[14px] w-full">
+                        <div class="flex flex-col gap-1">
+                           <h3 href="#" class="font-bold">Mercedes Power One</h3>
+                           <p class="text-lightblue font-semibold leading-[21px]">Rp 51.250.000</p>
+                        </div>
+                        <div class="flex items-center justify-between">
+                           <div class="flex items-center gap-[2px]">
+                               <img src="images/icon/flash.svg" class="w-5 h-5" alt="icon">
+                               <p class="font-semibold text-sm leading-[21px]">450kmh</p>
+                           </div>
+                           <div class="flex items-center gap-[2px] justify-end">
+                               <p class="font-semibold text-sm leading-[21px]">4/5</p>
+                               <img src="images/icon/star.svg" class="w-5 h-5" alt="icon">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               
+            </div>
+
+         </section>
       </div>
 
       <!-- Navbar -->
@@ -248,7 +225,7 @@
              <ul class="flex items-center justify-between w-full">
                  <link>
                      <a href="#" class="flex flex-col items-center gap-2">
-                         <img src="images/icon/element-equal.svg" alt="Browse" />
+                         <img src="images/icon/element-equal.svg" alt="Browse"/>
                          <p class="text-orange font-semibold text-sm">Browse</p>
                      </a>
                  </link>
