@@ -626,6 +626,10 @@ html {
   margin-top: 30px;
 }
 
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -675,6 +679,10 @@ html {
 
 .h-full {
   height: 100%;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .min-h-screen {
