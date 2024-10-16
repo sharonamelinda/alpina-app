@@ -601,6 +601,11 @@ html {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -685,6 +690,10 @@ html {
   width: 130px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[240px\] {
   width: 240px;
 }
@@ -702,12 +711,12 @@ html {
   max-width: 640px;
 }
 
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
-
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .shrink-0 {
@@ -822,6 +831,11 @@ html {
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-5 {
