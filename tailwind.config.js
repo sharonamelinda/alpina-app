@@ -6,14 +6,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-      },
       colors: {
-        'light' : '#f9fafb',
-        'darkblue' : '#060521',
-        'lightblue' : '#362eed',
-        'orange' : '#ff9a3d',
+        'alpina-grey' : '#f9fafb',
+        'alpina-darkblue' : '#060521',
+        'alpina-lightblue' : '#362eed',
+        'alpina-orange' : '#ff9a3d',
       }
     },
   },
